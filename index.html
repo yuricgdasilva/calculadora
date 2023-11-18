@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="./Js/calculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <!--1a coisa criar a div-->
+    <div class="degrade">
+    <div class="outer-container"></div>
+    <div class="social-icons">
+        <a href="https://github.com/yuricgdasilva" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/yuri-da-silva-carneiro-3b8807b3/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/yuridasilva_cg/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="http://wa.me/+5521984266450" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:yuricgdasilva@gmail" target="_blank"><i class="far fa-envelope"></i></a>
+    </div>
+        <div class="calculadora">
+            <h2>Calculadora</h2>
+            <p id="resultado"></p>
+            <table>
+                <tr><!--é a linha superior da tabela // td é a celula-->
+                    <td><button class="botao" onclick="limpar()">C</button></td>
+                    <td><button class="botao" onclick="voltar()">&lt</button></td>
+                    <td><button class="botao" onclick="insert('/')">/</button></td> <!--Igual a "Imprima ("/")"-->
+                    <td><button class="botao" onclick="insert('*')">X</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="insert('7')">7</button></td>
+                    <td><button class="botao" onclick="insert('8')">8</button></td>
+                    <td><button class="botao" onclick="insert('9')">9</button></td> <!--Igual a "Imprima ("/")"-->
+                    <td><button class="botao" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="insert('4')">4</button></td>
+                    <td><button class="botao" onclick="insert('5')">5</button></td>
+                    <td><button class="botao" onclick="insert('6')">6</button></td> <!--Igual a "Imprima ("/")"-->
+                    <td><button class="botao" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="botao" onclick="insert('1')">1</button></td>
+                    <td><button class="botao" onclick="insert('2')">2</button></td>
+                    <td><button class="botao" onclick="insert('3')">3</button></td> <!--Igual a "Imprima ("/")"-->
+                    <td rowspan="2"><button class="botao" style="height: 106px" onclick="calcular()">=</button></td>
+                </tr>
+                <!--"height = Altura" // width = Largura-->
+                <tr>					
+					<td colspan="2"><button class="botao" style="width:106px" onclick="insert('0')">0</button></td>
+					<td><button class="botao" onclick="insert('.')">.</button></td>
+				</tr>
+                
+
+            </table>
+
+
+
+            
+        </div>
+            </div>
+    <footer>
+        Desenvolvido por <a href="https://yuricgdasilva.github.io/Portifolio01/Sobre.html" target="_blank">YURI DA SILVA</a> no Curso de Programação Front-End com o Prof. <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">Anthony Freitas</a>
+          Todos os direitos reservados © | Senai Maracanã - 2023 </p>    
+     </footer>      
+    
+</body>
+
+</html>

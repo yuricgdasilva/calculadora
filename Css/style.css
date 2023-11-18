@@ -1,0 +1,91 @@
+.degrade{
+    background-image: linear-gradient(45deg,#00FFFF, #FF00FF);
+    height: 92vh; /*('V'ertical 'H'orizontal) de cima até embaixo, de um lado ate o outro*/
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -15px;
+    
+    margin-top: -10px;
+   
+}
+.calculadora{
+    position: absolute;
+    background-color: #00FFFF;
+    top: 55%;
+    left: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+h1{
+
+}
+h2{
+    color: black;
+
+}    
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #FFFFFF;
+    color: black;
+    margin: 3px;
+}
+.botao:hover{
+    background-color: #FFFF00;
+}
+#resultado{
+    background-color: white;
+    width: 220px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+    color: black;
+    font-size: 25px;
+}
+footer{
+    background: #FF00FF;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    font-size: small;
+    color: white;
+    margin-bottom: -15px;
+    margin-left: -10px;
+    margin-right: -15px;
+    
+}
+a{
+    
+    color: #00FFFF;
+}
+a:hover{
+    background-color: #FFFF00;
+    color: black;
+}
+
+.outer-container {
+    background: #00FFFF;
+    padding: 20px;
+    overflow: hidden; /* garante que a degrade nao apareça*/
+}
+.social-icons {  /*"link icones" https://www.w3schools.com/icons/default.asp */
+    display: flex; /*aumenta a pagina e diminui e ele continua o mesmo tamanho*/
+    justify-content: space-around; /* mantem o mesmo espaço de um para outro.. sempre na mesma proporção*/
+    margin-top: -30px;
+}
+
+.social-icons a {
+    color: #FF00FF;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #FF00FF;
+}
